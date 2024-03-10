@@ -1,12 +1,12 @@
-altair
-numpy
-pandas
+
+numpy==1.22.4
+pandas==1.4.1
 
 pydeck
 streamlit
 
-lasio
-scipy
+lasio==0.28
+scipy==1.8.1
 
-openpyxl
-matplotlib
+openpyxl==3.0.3
+matplotlib==3.3.2

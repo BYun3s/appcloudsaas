@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from ast import LShift
-from operator import lshift
 import streamlit as st
 from streamlit.logger import get_logger
 
@@ -54,7 +52,7 @@ if data_uploader is not None:
     #for loading las files
     string= data_uploader.read().decode() 
     
-    log= lshift.read(string)
+    log= ls.read(string)
     temp_df1 = log.df()
     temp_df1 = temp_df1.reset_index()
     temp_df1.columns
